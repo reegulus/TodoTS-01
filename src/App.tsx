@@ -2,22 +2,18 @@ import React from 'react';
 import './App.css';
 import {Header} from "./Header";
 import {Todolist} from "./Todolist";
+import {Footer} from "./Footer";
 
 function App() {
-  return (
-      <div className="App">
-        <div className="todoList">
-          <Header/>
-            <Todolist/>
-
-          <div className="todoList-footer">
-            <button>All</button>
-            <button>Completed</button>
-            <button>Active</button>
-          </div>
+    return (
+        <div className="App">
+            <div className="todoList">
+                <Header/>
+                <Todolist/>
+                <Footer/>
+            </div>
         </div>
-      </div>
-  );
+    );
 }
 
 export default App;
