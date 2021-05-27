@@ -5,10 +5,11 @@
 .todoList {
   width: 500px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 .todoList > div {
-  padding: 10px;
+
 }
 
 .todoList-task {
